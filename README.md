@@ -7,7 +7,7 @@ Aplicación web que permite añadir productos a un carrito de compras donde calc
 - JavaScript
 
 ## Autor
-**Gakusco** - *Desarrollador* - [Gakusco](https://github.com/Gakusco) :fa-user:
+**Gakusco** - *Desarrollador* - [Gakusco](https://github.com/Gakusco) 
 
 ## Vídeo demostrativo
 
