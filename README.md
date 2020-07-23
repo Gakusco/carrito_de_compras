@@ -9,6 +9,6 @@ Aplicación web que permite añadir productos a un carrito de compras donde calc
 ## Autor
 **Gakusco** - *Desarrollador* - [Gakusco](https://github.com/Gakusco) :fa-user:
 
-##Vídeo demostrativo
+## Vídeo demostrativo
 
-[![Watch the video](http://img.youtube.com/vi/gOwpXBJ9A5s/default.jpg)](https://youtu.be/gOwpXBJ9A5s)
+[![Watch the video](http://img.youtube.com/vi/gOwpXBJ9A5s/hqdefault.jpg)](https://youtu.be/gOwpXBJ9A5s)
