@@ -1,0 +1,102 @@
+"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de productos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="compraDeProductos">
+            <p>Sistema de Compras de productos</p>
+            <hr>
+        </div>
+        <div class="logo">
+            <img src="imagenes/logo.png">
+            <div class="fechaYHora">
+                <div class="fecha">
+                    <p id="dia">27</p>
+                    <p>de</p>
+                    <p id="mes">Septiembre</p>
+                    <p>de</p>
+                    <p id="anio">2020</p>
+                </div>
+                <div class="horaActual">
+                    <p id="hora">22</p>
+                    <p>:</p>
+                    <p id="minuto">02</p>
+                    <p>:</p>
+                    <p id="segundo">23</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenidoSuperior">
+            <form>
+                <div class="codigo">
+                    <label for="codigoForm">Ingrese código de producto:</label>
+                    <p id="msjErrorCodigo"> </p>
+                    <input class="codigoForm" id="codigoForm" placeholder="Ingrese un código del 0 al 9" type="number" min="0" max="9" autofocus>
+                </div>
+                <div class="cantidad">
+                    <label for="cantidadForm">Cantidad:</label>
+                    <p id="msjErrorCantidad"> </p>
+                    <input class="cantidadForm" id="cantidadForm" type="number" min="1">
+                </div>
+                <input id="agregar" class="agregar" type="button" value="Agregar">
+            </form>
+        </section>
+        <section class="contenidoMedio">
+            <p>Listado de productos:</p>
+            <table id="tabla">
+                <tr class="cabezera">
+                    <td>Imagen</td>
+                    <td>Producto</td>
+                    <td>Precio unitario ($)</td>
+                    <td>Cantidad</td>
+                    <td>Monto ($)</td>
+                </tr>
+            </table>
+        </section>
+        <section class="contenidoInferior">
+            <form class="pago">
+                <div class="solicitudDePago">
+                    <label for="pagando">Ingrese monto pagado ($): </label>
+                    <p id="msjErrorMonto"> </p>
+                    <input type="number" id="pagando" class="pagando" min="0">
+                </div>
+                <input id="btnPagar" type="button" class="validarPago" value="Pagar">
+            </form>
+
+            <section class="estadisticas">
+                <div class="cajaTotal">
+                    <p class="infoTotal">Total</p>
+                    <p id="total" class="numTotal"></p>
+                </div>
+                <div class="cajaPago">
+                    <p class="infoPago">Pago</p>
+                    <p id="pago" class="numPago"></p>
+                </div>
+                <div class="cajaCambio">
+                    <p class="infoCambio">Cambio</p>
+                    <p id="cambio" class="numCambio"></p>
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Super market 2020 - Desarrollado por Juan Carlos Ortiz Ramírez</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

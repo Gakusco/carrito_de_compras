@@ -1,0 +1,3 @@
+- Eliminar productos de la lista
+- Agregar productos a la lista
+- Se comprueban los campos y que existan productos en la lista

@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----------Header----------*/
+
+header,
+main,
+footer {
+    max-width: 800px;
+    min-width: 500px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*Texto principal del header*/
+
+.compraDeProductos {
+    width: 70%;
+    display: inline-block;
+}
+
+.compraDeProductos hr {
+    height: 5px;
+    background-color: brown;
+}
+
+.compraDeProductos p {
+    color: rgb(80, 60, 124);
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+
+/*logo y fecha*/
+
+.logo {
+    width: 29%;
+    display: inline-block;
+}
+
+.logo img {
+    margin: auto;
+    width: 100%;
+}
+
+.fecha p {
+    display: inline-block;
+}
+
+.horaActual p {
+    display: inline-block;
+}
+
+
+/*--------main--------*/
+
+main {
+    overflow: hidden;
+}
+
+
+/*formulario producto*/
+
+form {
+    margin-bottom: 10px;
+}
+
+.codigo {
+    width: 40%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.codigo p {
+    color: red;
+    font-size: medium;
+}
+
+.cantidad {
+    width: 30%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.cantidad p {
+    color: red;
+    font-size: medium;
+}
+
+.agregar {
+    width: 20%;
+    padding: 2px;
+    display: inline-block;
+}
+
+.codigo .codigoForm {
+    padding: 2px;
+    width: 100%;
+}
+
+.error {
+    border: 3px solid red;
+    padding: 2px;
+    width: 100%;
+}
+
+.cantidad .cantidadForm {
+    padding: 2px;
+    width: 100%;
+}
+
+form label {
+    color: brown;
+    font-weight: bold;
+}
+
+
+/*tabla*/
+
+.contenidoMedio p {
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main table .imagen .tamanioImagen {
+    width: 100%;
+}
+
+main table .imagen {
+    width: 120px;
+}
+
+main table tr td {
+    border: 1px solid #000;
+    text-align: center;
+    font-size: large;
+}
+
+main table .cabezera {
+    background: brown;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+main table .cuerpo:hover {
+    background: rgb(255, 150, 150);
+    cursor: pointer;
+}
+
+main table .cuerpo:active {
+    text-decoration: line-through;
+}
+
+
+/*formulario pago*/
+
+main .pago {
+    width: 50%;
+    float: left;
+}
+
+main .pago .pagando {
+    width: 90%;
+    padding: 2px;
+}
+
+main .pago .solicitudDePago {
+    width: 70%;
+    display: inline-block;
+}
+
+main .pago .solicitudDePago p {
+    color: red;
+}
+
+main .pago .validarPago {
+    width: 20%;
+    padding: 2px;
+    display: inline-block;
+}
+
+
+/*Estadisticas*/
+
+.estadisticas {
+    width: 50%;
+    float: right;
+}
+
+.cajaTotal,
+.cajaPago,
+.cajaCambio {
+    width: 70%;
+    margin: 5px;
+    text-align: right;
+    float: right;
+}
+
+.infoTotal,
+.infoPago,
+.infoCambio {
+    color: brown;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.numTotal {
+    background: rgb(255, 198, 198);
+    border-radius: 5px;
+    border: 1px solid rgb(148, 75, 75);
+    padding: 10px;
+    color: rgb(148, 75, 75);
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+}
+
+.numPago {
+    background: rgb(249, 255, 163);
+    border-radius: 5px;
+    border: 1px solid rgb(135, 151, 63);
+    padding: 10px;
+    color: rgb(135, 151, 63);
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+}
+
+.numCambio {
+    background: rgb(169, 255, 198);
+    border-radius: 5px;
+    border: 1px solid rgb(76, 146, 103);
+    padding: 10px;
+    color: rgb(76, 146, 103);
+    font-weight: bold;
+    width: 50%;
+    display: inline-block;
+}
+
+
+/*Footer*/
+
+footer {
+    background: brown;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
